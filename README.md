@@ -22,9 +22,11 @@ Beanscan provides a discovery and audit workflow/automation using carefully sele
 
 `$beanscan -show-db -target example.com` Show previously collected domain records from beanscan sink database
 
+
 ## System/Platform Requirements
 
-Ubuntu Linux 20.04 TLS and above
+Ubuntu Linux 20.04 LTS and above
+
 
 ## Credits
 
