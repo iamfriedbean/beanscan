@@ -31,4 +31,4 @@ Ubuntu Linux 20.04 LTS and above
 ## Credits
 
 Would like to thank developers and contributors from Open Source community including but not limited to:
-ProjectDiscovery.io, Tom Hudson, Luke Stephens, Jason Haddix, James Kettle and many more.  
+ProjectDiscovery.io, Tom Hudson, Luke Stephens, Jason Haddix, James Kettle, OWASP.org and many more.  
