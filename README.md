@@ -1,7 +1,7 @@
 For binary releases, jump to https://github.com/iamfriedbean/beanscan/releases
 
 
-Beanscan External Attack Surface Scan 
+Beanscan External Attack Surface Scanner 
 
 Traditional forms of security testing such as penetration testing are carried out in a very tight schedule usually in a pre-determined window often due to budget constraints. For this reason, scope of testing can be limited and does not scale widely to large digital footprint.  It is therefore crucial to have a tool that can discover and target large assets from day one – Beanscan does just that.​
 
