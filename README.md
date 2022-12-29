@@ -7,7 +7,8 @@ Traditional forms of security testing such as penetration testing are carried ou
 
 Beanscan provides a discovery and audit workflow/automation using carefully selected open source community tools unified together for wide scale external surface attack scanning. It can be used to aid in the initial phases of external attack surface management or first step to a more in-depth or targeted penetration type testing and red team engagement
 
-![image](https://user-images.githubusercontent.com/121557872/209822099-673ac0c6-2c19-4cbd-b335-ecf8d4cf8dc0.png)
+![image](https://user-images.githubusercontent.com/121557872/209969325-cced516e-fe10-4654-82de-c55e738bb188.png)
+
 
 ## Sample Usage
 `$beanscan -target example.com -discovery`  Run passive discovery only
@@ -25,10 +26,15 @@ Beanscan provides a discovery and audit workflow/automation using carefully sele
 
 ## System/Platform Requirements
 
-Ubuntu Linux 20.04 LTS and above
+Ubuntu Linux 20.04 LTS and above.
+BASH required
+
+## Initial Setup
+Download the setup binary using WGET (or similar) from Ubuntu terminal. 
+Run the Setup and follow instructions
 
 
 ## Credits
 
-Would like to thank developers and contributors from Open Source community including but not limited to:
-ProjectDiscovery.io, Tom Hudson, Luke Stephens, Jason Haddix, James Kettle, OWASP.org and many more.  
+Would like to thank the Open Source community for non stop research and continuously developing great tools. Special thanks to
+ProjectDiscovery.io, @tomnomnom, @hakluke, @jhaddix, @albinowax, OWASP.org, AssetNote, Seclist and many more.  
