@@ -29,12 +29,17 @@ Beanscan provides a discovery and audit workflow/automation using carefully sele
 Ubuntu Linux 20.04 LTS and above.
 BASH required
 
-## Initial Setup
-Download the setup binary using WGET (or similar) from Ubuntu terminal. 
-Run the Setup and follow instructions
-
+## Installation Guide
+1. Download the setup binary using WGET (or similar) from Ubuntu terminal.   
+`$wget https://github.com/iamfriedbean/beanscan/releases/download/releases/setup-beanscan -O setup-beanscan`
+3. Apply executable permission to the file   
+`$chmod u+x setup-beanscan`
+4. Run and follow instructions  
+`$./setup-beanscan`
+5. Once installed, just run the app (you may need to close and re-open your console terminal to apply environment configuration)     
+`$beanscan`
 
 ## Credits
 
 Would like to thank the Open Source community for non stop research and continuously developing great tools. Special thanks to
-ProjectDiscovery.io, @tomnomnom, @hakluke, @jhaddix, @albinowax, OWASP.org, AssetNote, Seclist and many more.  
+ProjectDiscovery.io, @tomnomnom, @hakluke, @jhaddix, Portswigger, Pentesterlab, Intigriti, OWASP.org, AssetNote, Seclist and many more.  
