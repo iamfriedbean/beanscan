@@ -1,4 +1,4 @@
-For binary releases, jump to https://github.com/iamfriedbean/beanscan/releases
+For latest release, jump to https://github.com/iamfriedbean/beanscan/releases
 
 
 # Beanscan External Attack Surface Scanner 
