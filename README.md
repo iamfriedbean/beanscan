@@ -40,6 +40,7 @@ BASH required
 `$beanscan`
 
 ### Additional configuration
+**Portscan**  
 The portscan option uses ProjectDiscovery Naabu and NMAP TCP Stealth (SYN) Scan -sS and UDP -sU. Both requires sudo (root) privilege to run.  
 For un-attended use, we recommend setting up automatic sudo privilege to avoid prompting password all the time it runs.
 Beanscan uses local copy of these binary in ~/.local/bin.   
@@ -63,9 +64,26 @@ For example:
 Save changes.  
 Try to do `$sudo nmap -sS` , it should not prompt for password anymore. 
 
+*****
+
+**OastCrazy**  
+The -oastcrazy option requires OOB (call back) server to work. You can use BURP Collaborator or Interactsh client.
+Copy the payload link and add it to your configuration
 
 
+`$interactsh-client`   
 
+`[WRN] Use with caution. You are responsible for your actions`  
+`[WRN] Developers assume no liability and are not responsible for any misuse or damage.`  
+`[INF] Listing 1 payload for OOB Testing`  
+`[INF] cenhe2s2jh0dorbpeiugq4ktqrhbhsrgx.oast.fun`  
+
+
+Edit the beanscan configuration file: ~/.config/beanscan/config.env  
+Update the OOB_SERVER entry:  
+
+`# set your oast server here`  
+`OOB_SERVER = cenhe2s2jh0dorbpeiugq4ktqrhbhsrgx.oast.fun`
 
 
 ## Credits
