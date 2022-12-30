@@ -39,6 +39,35 @@ BASH required
 5. Once installed, just run the app (you may need to close and re-open your console terminal to apply environment configuration)     
 `$beanscan`
 
+### Addtional configuration
+The portscan option uses ProjectDiscovery Naabu and NMAP TCP Stealth (SYN) Scan -sS and UDP -sU. Both requires sudo (root) privilege to run.  
+For un-attended use, we recommend setting up automatic sudo privilege to avoid prompting password all the time it runs.
+Beanscan uses local copy of these binary in ~/.local/bin.   
+
+By default, when you run `nmap -sS` without sudo, you'll get the following:  
+`You requested a scan type which requires root privileges.`
+`QUITTING!`
+
+To apply automatic permission, use the below:
+
+`$sudo visudo` Make sure to replace "user"(w/o quotes) with your actual username.
+
+`user    ALL=(ALL) NOPASSWD: /home/user/.local/bin/nmap`  
+`user    ALL=(ALL) NOPASSWD: /home/user/.local/bin/naabu`
+
+For example:  
+
+`john    ALL=(ALL) NOPASSWD: /home/john/.local/bin/nmap`  
+`john    ALL=(ALL) NOPASSWD: /home/john/.local/bin/naabu`
+
+Save changes.  
+Try to do `$sudo nmap -sS` , it should not prompt for password anymore. 
+
+
+
+
+
+
 ## Credits
 
 Would like to thank the Open Source community for non stop research and continuously developing great tools. Special thanks to
