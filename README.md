@@ -89,4 +89,4 @@ Update the OOB_SERVER entry:
 ## Credits
 
 Would like to thank the Open Source community for non stop research and continuously developing great tools. Special thanks to
-ProjectDiscovery.io, @tomnomnom, @hakluke, @jhaddix, Portswigger, Pentesterlab, Intigriti, OWASP.org, AssetNote, Seclist and many more.  
+ProjectDiscovery.io, @tomnomnom, @hakluke, @jhaddix, Portswigger, Pentesterlab, Intigriti, Sensepost, OWASP.org, AssetNote, Seclist and many more.  
