@@ -39,7 +39,7 @@ BASH required
 5. Once installed, just run the app (you may need to close and re-open your console terminal to apply environment configuration)     
 `$beanscan`
 
-### Addtional configuration
+### Additional configuration
 The portscan option uses ProjectDiscovery Naabu and NMAP TCP Stealth (SYN) Scan -sS and UDP -sU. Both requires sudo (root) privilege to run.  
 For un-attended use, we recommend setting up automatic sudo privilege to avoid prompting password all the time it runs.
 Beanscan uses local copy of these binary in ~/.local/bin.   
