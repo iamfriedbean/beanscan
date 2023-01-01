@@ -7,7 +7,8 @@ Traditional forms of security testing such as penetration testing are carried ou
 
 Beanscan provides a discovery and audit workflow/automation using carefully selected open source community tools unified together for wide scale external surface attack scanning. It can be used to aid in the initial phases of external attack surface management or first step to a more in-depth or targeted penetration type testing and red team engagement
 
-![image](https://user-images.githubusercontent.com/121557872/209969325-cced516e-fe10-4654-82de-c55e738bb188.png)
+![bs](https://user-images.githubusercontent.com/121557872/210185870-77b6a4ec-279f-4dcf-a096-008e56b86931.png)
+![Screenshot from 2023-01-01 22-06-17](https://user-images.githubusercontent.com/121557872/210185945-5490297c-8d07-4da2-bd0c-f2f327fba460.png)
 
 
 ## Sample Usage
