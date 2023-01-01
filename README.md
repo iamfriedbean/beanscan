@@ -24,6 +24,7 @@ Beanscan provides a discovery and audit workflow/automation using carefully sele
 
 `$beanscan -show-db -target example.com` Show previously collected domain records from beanscan sink database
 
+![bs-usage](https://user-images.githubusercontent.com/121557872/210186076-7091045a-fce0-46af-90c4-3e27210cf51a.png)
 
 ## System/Platform Requirements
 
