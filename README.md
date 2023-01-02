@@ -41,6 +41,14 @@ BASH required
 5. Once installed, just run the app (you may need to close and re-open your console terminal to apply environment configuration)     
 `$beanscan`
 
+*****
+### Updating
+To fetch the latest update, just run:
+`$update-beanscan`   
+
+*****
+
+
 ### Additional configuration
 **Portscan**  
 The portscan option uses ProjectDiscovery Naabu and NMAP TCP Stealth (SYN) Scan -sS and UDP -sU. Both requires sudo (root) privilege to run.  
@@ -66,9 +74,6 @@ For example:
 Save changes.  
 Try to do `$sudo nmap -sS` , it should not prompt for password anymore. 
 
-### Updating
-To fetch the latest update, just run:
-`$update-beanscan`   
 
 
 *****
@@ -91,6 +96,16 @@ Update the OOB_SERVER entry:
 
 `# set your oast server here`  
 `OOB_SERVER = cenhe2s2jh0dorbpeiugq4ktqrhbhsrgx.oast.fun`
+
+
+## Results/Reports
+
+Beanscan creates directories (from current directory) based on the target seed domain. This is where it stores the results.  So assumed you used `-target example.com` from your home directory , it will create the following:   
+
+`$ example.com/results-summary.txt`  file which contains summary of results    
+`$ example.com/logs/`  directory which contains log files    
+`$ example.com/logs/html`  directory which contains HTML reports (where applicable)       
+
 
 
 ## Credits
