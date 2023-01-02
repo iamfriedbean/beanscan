@@ -66,6 +66,11 @@ For example:
 Save changes.  
 Try to do `$sudo nmap -sS` , it should not prompt for password anymore. 
 
+### Updating
+To fetch the latest update, just run:
+`$update-beanscan`   
+
+
 *****
 
 **OastCrazy**  
