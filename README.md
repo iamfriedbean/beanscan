@@ -30,6 +30,7 @@ Beanscan provides a discovery and audit workflow/automation using carefully sele
 
 Ubuntu Linux 20.04 LTS and above.
 BASH required
+Internet Connection
 
 ## Installation Guide
 1. Download the setup binary using WGET (or similar) from Ubuntu terminal.   
@@ -102,7 +103,7 @@ Update the OOB_SERVER entry:
 
 Beanscan creates directories (from current directory) based on the target seed domain. This is where it stores the results.  So assumed you used `-target example.com` from your home directory , it will create the following:   
 
-`$ example.com/results-summary.txt`  file which contains summary of results    
+`$ example.com/results-summary.html`  file which contains summary of results    
 `$ example.com/logs/`  directory which contains log files    
 `$ example.com/logs/html`  directory which contains HTML reports (where applicable)       
 
@@ -111,4 +112,4 @@ Beanscan creates directories (from current directory) based on the target seed d
 ## Credits
 
 Would like to thank the Open Source community for non stop research and continuously developing great tools. Special thanks to
-ProjectDiscovery.io, @tomnomnom, @hakluke, @jhaddix, Portswigger, Pentesterlab, Intigriti, Sensepost, OWASP.org, AssetNote, Seclist and many more.  
+ProjectDiscovery.io, @tomnomnom, @hakluke, @jhaddix, Portswigger, Pentesterlab, Intigriti, Sensepost, OWASP.org, SANS.org, AssetNote, Seclist and many more.  
