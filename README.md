@@ -233,3 +233,17 @@ Beanscan creates directories (from current directory) based on the target seed d
 
 Would like to thank the Open Source community for non stop research and continuously developing great tools. Special thanks to
 ProjectDiscovery.io, @tomnomnom, @hakluke, @jhaddix, Portswigger, Pentesterlab, Intigriti, Sensepost, OWASP.org, SANS.org, AssetNote, Seclist and many more.  
+
+## Disclaimer
+
+Use of this tool for  penetration testing (or other forms of security testing) must only be conducted as defined by the rules of engagement agreed upon by both parties.   
+
+Make sure you have the authority to conduct test based on defined activities without the need for additional permissions.   
+
+This is provided AS-IS without warranty of any kind, therefore Use with caution. You are responsible and accountable for your actions.   
+   
+Developer(s) assume no liability and are not responsible/nor accountable for any misuse or damage. In no event shall the developer(s) be liable for any claim, damages or other liability arising from, out of or in connection with the use of this application. Use at your own risk.   
+
+
+
+
