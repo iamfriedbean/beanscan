@@ -53,7 +53,7 @@ $update-beanscan
   
 
 
-## Sample Usage
+## Some Usage examples
 Run passive discovery only
 ```
 $beanscan -target example.com -discovery
