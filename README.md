@@ -1,4 +1,6 @@
-For latest release, jump to https://github.com/iamfriedbean/beanscan/releases
+## Notice of Project Status
+
+Thank you for your interest in this project. Please be aware that as of March 11, 2025, this project is no longer actively maintained or updated. We appreciate the community support and engagement this project has received over the years.
 
 
 # Beanscan External Attack Surface Scanner 
